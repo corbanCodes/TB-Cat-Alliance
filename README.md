@@ -2,7 +2,9 @@
 
 Demo site for **Florida Dealz** — a monthly digital 3D flipbook of local business ads/coupons for the Tampa Bay area. Pure ad-space business: she sells the spots, businesses send their ads, a new issue publishes monthly. Built by [60MinuteSites](https://60minutesites.com).
 
-> Note: originally branded around Tampabay Cat Alliance (client's former org — now defunct). Rebranded 8/14/2026 per Corban: no rescue angle, but the cat mascot stays for fun (it wears sunglasses now). Repo name still `TB-Cat-Alliance`.
+> Note: originally branded around Tampabay Cat Alliance (client's former org — now defunct). Rebranded 8/14/2026 per Corban: no rescue angle and **no cats anywhere** — logo is a price tag, covers show a sample sponsor ad, story panel is a print-vs-digital cost infographic. Repo name still `TB-Cat-Alliance`.
+>
+> **Client contact (shown throughout the site):** (727) 712-6729 · tbcatalliance@gmail.com
 
 ## Status
 
@@ -19,6 +21,7 @@ Demo site for **Florida Dealz** — a monthly digital 3D flipbook of local busin
 ## Placeholders the client should confirm
 
 - **Name** "Florida Dealz" spelling/logo treatment.
+- Sample cover sponsor "Bay Breeze Roofing" and all in-book advertisers are fictional.
 - **Ad rates** ($249 front cover / $199 back cover / $99 full / $59 half, 2+1 free bundle, 12-mo founding lock) — placeholder numbers, she hasn't set pricing.
 - **Sample ads** in the flipbook are fictional (labeled "SAMPLE" on-page and disclaimed in the footer).
 - Launch counties shown as Pasco + Hernando, "Hillsborough & Pinellas next" — matches her 2-then-1-bigger plan but not final.

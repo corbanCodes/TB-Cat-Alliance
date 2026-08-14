@@ -1,5 +1,5 @@
 /* ============================================================
-   Paws & Pages — Tampabay Cat Alliance community flipbook
+   Florida Dealz — Tampa Bay's monthly deal flipbook
    Demo site by 60MinuteSites
    ============================================================ */
 
@@ -76,7 +76,7 @@ nav {
   text-decoration: none;
 }
 .nav-logo em { font-style: normal; color: var(--orange); }
-.nav-logo svg.cat { width: 30px; height: 30px; fill: var(--orange); flex: none; }
+.nav-logo svg.mark { width: 26px; height: 26px; fill: var(--orange); flex: none; }
 .nav-links {
   display: flex;
   align-items: center;
@@ -90,6 +90,9 @@ nav {
   font-size: 15px;
 }
 .nav-links a:hover { color: var(--orange-deep); }
+.nav-links a.nav-phone { color: var(--orange-deep); }
+.hero-phone { margin-top: 18px; font-weight: 700; font-size: 16.5px; }
+.hero-phone a { color: var(--orange-deep); text-decoration: none; border-bottom: 2px solid var(--gold); }
 
 /* ---------- buttons ---------- */
 .btn {
@@ -365,6 +368,47 @@ nav {
   margin-top: 8px;
 }
 .pg-cover svg.cat-big { width: 52%; fill: rgba(240,180,65,.95); margin: 18px auto 0; }
+
+/* cover sponsor sample ad (flipbook cover + hero mock) */
+.cover-ad {
+  background: var(--paper);
+  color: var(--ink);
+  border-radius: 10px;
+  width: 88%;
+  margin: 18px auto 0;
+  padding: 14px 12px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0,0,0,.28);
+}
+.cover-ad .cover-ad-chip {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ink);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 3px 10px;
+  margin-bottom: 8px;
+}
+.cover-ad .cover-ad-name {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 1.1;
+}
+.cover-ad .cover-ad-offer {
+  color: var(--orange-deep);
+  font-weight: 800;
+  font-size: 15px;
+  margin-top: 3px;
+}
+.cover-ad .cover-ad-sub {
+  color: var(--muted);
+  font-size: 10.5px;
+  margin-top: 5px;
+}
 .pg-cover .cover-strip {
   margin-top: auto;
   background: var(--gold);
@@ -402,10 +446,10 @@ nav {
   content: '';
   position: absolute;
   left: 0; top: 7px;
-  width: 14px; height: 14px;
+  width: 13px; height: 13px;
   background: var(--orange);
-  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='5' cy='9' r='2.4'/%3E%3Ccircle cx='12' cy='6.6' r='2.4'/%3E%3Ccircle cx='19' cy='9' r='2.4'/%3E%3Cellipse cx='12' cy='16.4' rx='6' ry='4.8'/%3E%3C/svg%3E") center/contain no-repeat;
-          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Ccircle cx='5' cy='9' r='2.4'/%3E%3Ccircle cx='12' cy='6.6' r='2.4'/%3E%3Ccircle cx='19' cy='9' r='2.4'/%3E%3Cellipse cx='12' cy='16.4' rx='6' ry='4.8'/%3E%3C/svg%3E") center/contain no-repeat;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.22-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58s1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.22-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z'/%3E%3C/svg%3E") center/contain no-repeat;
 }
 
 /* sample ad pages */
@@ -691,6 +735,15 @@ nav {
 }
 .about-art svg.cat-big { width: 46%; fill: var(--teal); }
 .about-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 26px; }
+.ig-title { font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 17px; margin-bottom: 18px; }
+.ig-row { display: grid; grid-template-columns: 96px 1fr 36px; align-items: center; gap: 10px; margin-bottom: 10px; }
+.ig-label { font-size: 12px; font-weight: 800; text-align: right; color: var(--muted); }
+.ig-track { background: var(--cream); border: 1px solid var(--line); border-radius: 999px; height: 18px; overflow: hidden; }
+.ig-bar { height: 100%; border-radius: 999px; }
+.ig-bar-print { background: linear-gradient(90deg, #8A7264, #6B584C); }
+.ig-bar-digital { background: linear-gradient(90deg, var(--orange), var(--gold)); }
+.ig-val { font-size: 12px; font-weight: 800; color: var(--ink); text-align: left; }
+.ig-note { font-size: 12px; color: var(--muted); margin-top: 6px; }
 .stat {
   background: var(--cream);
   border: 1px solid var(--line);
@@ -833,7 +886,7 @@ footer {
   padding: 48px 0 36px;
 }
 footer .nav-logo { color: #F6EBDD; }
-footer .nav-logo svg.cat { fill: var(--gold); }
+footer .nav-logo svg.mark { fill: var(--gold); }
 footer .nav-logo em { color: var(--gold); }
 .footer-grid {
   display: flex;
